@@ -1,0 +1,7 @@
+diff --git a/homelab-noop.txt b/homelab-noop.txt
+new file mode 100644
+index 0000000..0000001
+--- /dev/null
++++ b/homelab-noop.txt
+@@ -0,0 +1 @@
++placeholder patch: adds this file only, changes no code
