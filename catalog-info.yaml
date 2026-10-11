@@ -4,6 +4,8 @@ metadata:
   annotations:
     backstage.io/kubernetes-label-selector: 'app.kubernetes.io/name=backstage'
     backstage.io/kubernetes-namespace: backstage
+    argocd/app-name: backstage
+    argocd/instance-name: homelab
   name: backstage
   description: An example of a Backstage application.
   # Example for optional annotations

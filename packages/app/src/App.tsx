@@ -4,7 +4,8 @@ import { navModule } from './modules/nav';
 import { homeModule } from './modules/home';
 import { signInModule } from './modules/signin';
 import kubernetesPlugin from '@backstage/plugin-kubernetes/alpha';
+import argocdPlugin, { argocdTranslationsModule } from '@backstage-community/plugin-argocd';
 
 export default createApp({
-  features: [catalogPlugin, navModule, homeModule, signInModule, kubernetesPlugin],
+  features: [catalogPlugin, navModule, homeModule, signInModule, kubernetesPlugin, argocdPlugin, argocdTranslationsModule],
 });
