@@ -10,7 +10,6 @@ const signInPage = SignInPageBlueprint.make({
         <SignInPage
           {...props}
           providers={[
-            'guest',
             {
               id: 'github-auth-provider',
               title: 'GitHub',
